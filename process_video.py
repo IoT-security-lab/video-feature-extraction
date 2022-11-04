@@ -133,7 +133,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         prog="process_video",
         description="Process videos for action detection by extracting using a pre-trained feature extractor model",
-        epilog="Created by Kevin Barba, Iot Security Laboratory, UTSA"
+        epilog="Created by Kevin B, Iot Security Laboratory, UTSA"
     )
     parser.add_argument('-d', '--dataset_path', metavar='DATASET_PATH', type=str, default=__DATASET_PATH)
     parser.add_argument('--image_size', metavar='IMAGE_SIZE', type=int, default=__IMG_SIZE)
